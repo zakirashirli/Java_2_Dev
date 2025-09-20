@@ -34,6 +34,13 @@ public class Main {
         }else{
             System.out.println("false");
         }
-        
+
+
+        int[] nums = {99, 100, 200};
+
+        boolean isGreater100 = nums[1] >= 100;
+        System.out.println(isGreater100);
+        System.out.println(nums[1] >= 100);
+        System.out.println(nums[2] == 100);
     }
 }
